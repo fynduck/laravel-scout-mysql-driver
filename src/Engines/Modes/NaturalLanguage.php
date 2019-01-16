@@ -17,10 +17,10 @@ class NaturalLanguage extends Mode
         $queryString .= "MATCH($indexFields) AGAINST(? IN NATURAL LANGUAGE MODE";
 
         if (config('scout.mysql.query_expansion')) {
-            $queryString .= ' WITH QUERY EXPANSION';
+                $queryString .= ' WITH QUERY EXPANSION';
         }
 
-        $queryString .= ')';
+        $queryString .= ') AS score';
 
         return $queryString;
     }

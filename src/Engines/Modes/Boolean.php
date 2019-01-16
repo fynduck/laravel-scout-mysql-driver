@@ -15,7 +15,7 @@ class Boolean extends Mode
 
         $indexFields = implode(',',  $this->modelService->setModel($builder->model)->getFullTextIndexFields());
 
-        $queryString .= "MATCH($indexFields) AGAINST(? IN BOOLEAN MODE)";
+        $queryString .= "MATCH($indexFields) AGAINST(? IN BOOLEAN MODE) AS score";
 
         return $queryString;
     }
