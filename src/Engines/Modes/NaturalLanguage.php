@@ -1,6 +1,6 @@
 <?php
 
-namespace Yab\MySQLScout\Engines\Modes;
+namespace Fynduck\MySQLScout\Engines\Modes;
 
 use Laravel\Scout\Builder;
 

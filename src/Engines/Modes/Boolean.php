@@ -1,9 +1,9 @@
 <?php
 
-namespace Yab\MySQLScout\Engines\Modes;
+namespace Fynduck\MySQLScout\Engines\Modes;
 
 use Laravel\Scout\Builder;
-use Yab\MySQLScout\Services\ModelService;
+use Fynduck\MySQLScout\Services\ModelService;
 
 class Boolean extends Mode
 {

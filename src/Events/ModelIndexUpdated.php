@@ -1,6 +1,6 @@
 <?php
 
-namespace Yab\MySQLScout\Events;
+namespace Fynduck\MySQLScout\Events;
 
 class ModelIndexUpdated
 {

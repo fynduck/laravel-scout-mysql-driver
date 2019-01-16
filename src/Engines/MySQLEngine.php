@@ -1,8 +1,8 @@
 <?php
 
-namespace Yab\MySQLScout\Engines;
+namespace Fynduck\MySQLScout\Engines;
 
-use Yab\MySQLScout\Engines\Modes\ModeContainer;
+use Fynduck\MySQLScout\Engines\Modes\ModeContainer;
 use Illuminate\Database\Eloquent\Collection;
 use Laravel\Scout\Builder;
 use Laravel\Scout\Engines\Engine;
@@ -137,10 +137,10 @@ class MySQLEngine extends Engine
      * Flush all of the model's records from the engine.
      *
      * @param  \Illuminate\Database\Eloquent\Model  $model
-     * 
+     *
      * @return void
      */
-    public function flush($model) 
+    public function flush($model)
     {
     }
 
